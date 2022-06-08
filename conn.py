@@ -10,6 +10,12 @@ row_count = 0
 start_time = time.time()
 table_name = "acervo"
 
+"""
+Link para acervo.csv: https://dados.ufrn.br/dataset/06641eab-7f73-46a4-85b7-181ab55dcae0/resource/2a05076a-44e9-4d7f-8c8f-7c64c7bf3c48/download/acervo.csv
+Arquivo maior que 75mb nao consegui colocar no github :C
+"""
+
+
 
 def connect_to_hbase():
     """ Faz a conexao com o servidor HBase
